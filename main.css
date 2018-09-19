@@ -1,0 +1,232 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 60px 500px 250px 250px 250px 250px
+     500px 250px 250px 250px 250px 500px 100px 220px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "column1" 
+                         "column2" 
+                         "column3"
+                         "column4"
+                         "column5"
+                         "column6"
+                         "column7"
+                         "column8"
+                         "column9"
+                         "column10"
+                         "column11"
+                         "column12"
+                         "column13"
+                         "column14"
+                                                 
+}
+
+ 
+ .container {
+    display: flex;
+    
+ }
+    
+
+
+header {
+    grid-area: column1;
+    display: flex;
+
+
+}
+
+
+
+
+#big1 {
+    grid-area: column2;
+    display: flex;
+    margin: 15px;
+}
+
+
+
+
+#big2 {
+    grid-area: column3;
+    display: flex;
+    margin: 15px;
+}
+
+
+
+#big3 {
+    grid-area: column4;
+    display: flex;
+    margin: 15px;
+
+
+}
+
+
+
+
+#big4 {
+    grid-area: column5;
+    display: flex;
+    margin: 15px;
+
+
+}
+
+
+
+
+
+#big5 {
+    grid-area: column6;
+    display: flex;
+    margin: 15px;
+
+
+
+}
+
+
+
+
+
+#big6 {
+    grid-area: column7;
+    display: flex;
+    margin: 15px;
+
+
+
+}
+
+
+
+
+
+#big7 {
+    grid-area: column8;
+    display: flex;
+    margin: 15px;
+
+}
+
+
+
+
+#big8 {
+    grid-area: column9;
+    display: flex;
+    margin: 15px;
+
+
+}
+
+
+
+
+#big9 {
+    grid-area: column10;
+    display: flex;
+    margin: 15px;
+
+
+
+}
+
+
+
+#big10 {
+    grid-area: column11;
+    display: flex;
+    margin: 15px;
+
+
+}
+
+
+#big11 {
+    grid-area: column12;
+    display: flex;
+    margin: 15px;
+
+
+}
+
+
+
+#big12 {
+    grid-area: column13;
+    display: flex;
+    margin: 15px;
+
+
+}
+
+
+
+
+
+#big13 {
+    grid-area: column14;
+    display: flex;
+    margin: 15px;
+
+
+
+}
+
+
+
+
+
+#big14 {
+    grid-area: column2;
+    display:flex;
+    margin: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 540px) {
+    body {
+        grid-template-rows: 80px 1fr 80px;
+        grid-template-columns: 200px 1fr;
+        grid-template-areas: "column1"
+                            "column2"
+                            "column3"
+                            "column4";
+        display: flex;
+    }
+    .container {
+        flex-direction: column;
+
+    }
+}
+@media screen and (min-width: 541px) and (max-width: 1084px) {
+    body {
+
+        grid-template-rows: 80px 1fr 80px;
+        grid-template-columns: 200px 1fr;
+        grid-template-areas: "column1"
+                            "column2"
+                            "column3"
+                            "column4";
+
+
+    }
+
+    .container {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+}
